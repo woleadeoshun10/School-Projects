@@ -1,0 +1,8 @@
+*** There are 7 people ***
+Sean is 24 years old.
+Pamela is 29 years old.
+Mark is 22 years old.
+Danial is 17 years old.
+John is 18 years old.
+Eric is 24 years old.
+Jessica is 23 years old.

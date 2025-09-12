@@ -1,0 +1,435 @@
+calling buildStack()
+entering buildStack()
+input data is The
+input data is story
+input data is opens
+input data is with
+input data is Santiago
+input data is having
+input data is gone
+input data is 84
+input data is days
+input data is without
+input data is catching
+input data is a
+input data is fish
+input data is and
+input data is now
+input data is being
+input data is seen
+input data is as
+input data is salao
+input data is the
+input data is worst
+input data is form
+input data is of
+input data is unluckiness
+input data is He
+input data is is
+input data is so
+input data is unlucky
+input data is that
+input data is his
+input data is young
+input data is apprentice
+input data is Manolin
+input data is has
+input data is been
+input data is forbidden
+input data is by
+input data is his
+input data is parents
+input data is to
+input data is sail
+input data is with
+input data is him
+input data is and
+input data is has
+input data is been
+input data is told
+input data is instead
+input data is to
+input data is fish
+input data is with
+input data is successful
+input data is fishermen
+leaving buildStack()
+calling buildQueue()
+entering buildQueue()
+after pop stack, newNode’s data is fishermen
+after pop stack, newNode’s data is successful
+after pop stack, newNode’s data is with
+after pop stack, newNode’s data is fish
+after pop stack, newNode’s data is to
+after pop stack, newNode’s data is instead
+after pop stack, newNode’s data is told
+after pop stack, newNode’s data is been
+after pop stack, newNode’s data is has
+after pop stack, newNode’s data is and
+after pop stack, newNode’s data is him
+after pop stack, newNode’s data is with
+after pop stack, newNode’s data is sail
+after pop stack, newNode’s data is to
+after pop stack, newNode’s data is parents
+after pop stack, newNode’s data is his
+after pop stack, newNode’s data is by
+after pop stack, newNode’s data is forbidden
+after pop stack, newNode’s data is been
+after pop stack, newNode’s data is has
+after pop stack, newNode’s data is Manolin
+after pop stack, newNode’s data is apprentice
+after pop stack, newNode’s data is young
+after pop stack, newNode’s data is his
+after pop stack, newNode’s data is that
+after pop stack, newNode’s data is unlucky
+after pop stack, newNode’s data is so
+after pop stack, newNode’s data is is
+after pop stack, newNode’s data is He
+after pop stack, newNode’s data is unluckiness
+after pop stack, newNode’s data is of
+after pop stack, newNode’s data is form
+after pop stack, newNode’s data is worst
+after pop stack, newNode’s data is the
+after pop stack, newNode’s data is salao
+after pop stack, newNode’s data is as
+after pop stack, newNode’s data is seen
+after pop stack, newNode’s data is being
+after pop stack, newNode’s data is now
+after pop stack, newNode’s data is and
+after pop stack, newNode’s data is fish
+after pop stack, newNode’s data is a
+after pop stack, newNode’s data is catching
+after pop stack, newNode’s data is without
+after pop stack, newNode’s data is days
+after pop stack, newNode’s data is 84
+after pop stack, newNode’s data is gone
+after pop stack, newNode’s data is having
+after pop stack, newNode’s data is Santiago
+after pop stack, newNode’s data is with
+after pop stack, newNode’s data is opens
+after pop stack, newNode’s data is story
+after pop stack, newNode’s data is The
+leaving buildQueue()
+calling buildList()
+entering buildList()
+entering deleteQ()
+delete a node from Q, newNode’s data is fishermen
+leaving deleteQ()
+entering findSpot()
+Spot’s data is dummy
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is successful
+leaving deleteQ()
+entering findSpot()
+Spot’s data is fishermen
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is with
+leaving deleteQ()
+entering findSpot()
+Spot’s data is successful
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is fish
+leaving deleteQ()
+entering findSpot()
+Spot’s data is dummy
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is to
+leaving deleteQ()
+entering findSpot()
+Spot’s data is successful
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is instead
+leaving deleteQ()
+entering findSpot()
+Spot’s data is fishermen
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is told
+leaving deleteQ()
+entering findSpot()
+Spot’s data is to
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is been
+leaving deleteQ()
+entering findSpot()
+Spot’s data is dummy
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is has
+leaving deleteQ()
+entering findSpot()
+Spot’s data is fishermen
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is and
+leaving deleteQ()
+entering findSpot()
+Spot’s data is dummy
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is him
+leaving deleteQ()
+entering findSpot()
+Spot’s data is has
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is with
+leaving deleteQ()
+entering findSpot()
+Spot’s data is told
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is sail
+leaving deleteQ()
+entering findSpot()
+Spot’s data is instead
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is to
+leaving deleteQ()
+entering findSpot()
+Spot’s data is successful
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is parents
+leaving deleteQ()
+entering findSpot()
+Spot’s data is instead
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is his
+leaving deleteQ()
+entering findSpot()
+Spot’s data is him
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is by
+leaving deleteQ()
+entering findSpot()
+Spot’s data is been
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is forbidden
+leaving deleteQ()
+entering findSpot()
+Spot’s data is fishermen
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is been
+leaving deleteQ()
+entering findSpot()
+Spot’s data is and
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is has
+leaving deleteQ()
+entering findSpot()
+Spot’s data is forbidden
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is Manolin
+leaving deleteQ()
+entering findSpot()
+Spot’s data is dummy
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is apprentice
+leaving deleteQ()
+entering findSpot()
+Spot’s data is and
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is young
+leaving deleteQ()
+entering findSpot()
+Spot’s data is with
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is his
+leaving deleteQ()
+entering findSpot()
+Spot’s data is him
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is that
+leaving deleteQ()
+entering findSpot()
+Spot’s data is successful
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is unlucky
+leaving deleteQ()
+entering findSpot()
+Spot’s data is told
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is so
+leaving deleteQ()
+entering findSpot()
+Spot’s data is sail
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is is
+leaving deleteQ()
+entering findSpot()
+Spot’s data is instead
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is He
+leaving deleteQ()
+entering findSpot()
+Spot’s data is dummy
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is unluckiness
+leaving deleteQ()
+entering findSpot()
+Spot’s data is told
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is of
+leaving deleteQ()
+entering findSpot()
+Spot’s data is is
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is form
+leaving deleteQ()
+entering findSpot()
+Spot’s data is forbidden
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is worst
+leaving deleteQ()
+entering findSpot()
+Spot’s data is with
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is the
+leaving deleteQ()
+entering findSpot()
+Spot’s data is that
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is salao
+leaving deleteQ()
+entering findSpot()
+Spot’s data is sail
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is as
+leaving deleteQ()
+entering findSpot()
+Spot’s data is apprentice
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is seen
+leaving deleteQ()
+entering findSpot()
+Spot’s data is salao
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is being
+leaving deleteQ()
+entering findSpot()
+Spot’s data is been
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is now
+leaving deleteQ()
+entering findSpot()
+Spot’s data is is
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is and
+leaving deleteQ()
+entering findSpot()
+Spot’s data is Manolin
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is fish
+leaving deleteQ()
+entering findSpot()
+Spot’s data is by
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is a
+leaving deleteQ()
+entering findSpot()
+Spot’s data is Manolin
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is catching
+leaving deleteQ()
+entering findSpot()
+Spot’s data is by
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is without
+leaving deleteQ()
+entering findSpot()
+Spot’s data is with
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is days
+leaving deleteQ()
+entering findSpot()
+Spot’s data is catching
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is 84
+leaving deleteQ()
+entering findSpot()
+Spot’s data is dummy
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is gone
+leaving deleteQ()
+entering findSpot()
+Spot’s data is form
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is having
+leaving deleteQ()
+entering findSpot()
+Spot’s data is has
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is Santiago
+leaving deleteQ()
+entering findSpot()
+Spot’s data is Manolin
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is with
+leaving deleteQ()
+entering findSpot()
+Spot’s data is unlucky
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is opens
+leaving deleteQ()
+entering findSpot()
+Spot’s data is of
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is story
+leaving deleteQ()
+entering findSpot()
+Spot’s data is so
+leaving findSpot()
+entering deleteQ()
+delete a node from Q, newNode’s data is The
+leaving deleteQ()
+entering findSpot()
+Spot’s data is Santiago
+leaving findSpot()
+leaving buildList()
+Printing list
+listHead -> (dummy, 84) -> (84, He) -> (He, Manolin) -> (Manolin, Santiago) -> (Santiago, The) -> (The, a) -> (a, and) -> (and, and) -> (and, apprentice) -> (apprentice, as) -> (as, been) -> (been, been) -> (been, being) -> (being, by) -> (by, catching) -> (catching, days) -> (days, fish) -> (fish, fish) -> (fish, fishermen) -> (fishermen, forbidden) -> (forbidden, form) -> (form, gone) -> (gone, has) -> (has, has) -> (has, having) -> (having, him) -> (him, his) -> (his, his) -> (his, instead) -> (instead, is) -> (is, now) -> (now, of) -> (of, opens) -> (opens, parents) -> (parents, sail) -> (sail, salao) -> (salao, seen) -> (seen, so) -> (so, story) -> (story, successful) -> (successful, that) -> (that, the) -> (the, to) -> (to, to) -> (to, told) -> (told, unluckiness) -> (unluckiness, unlucky) -> (unlucky, with) -> (with, with) -> (with, with) -> (with, without) -> (without, worst) -> (worst, young) -> (young, NULL) -> NULL

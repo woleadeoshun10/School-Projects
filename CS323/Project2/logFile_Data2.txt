@@ -1,0 +1,200 @@
+In main(): op= + data= William index= 0
+*** Calling hashInsert: data= William
+*** enter hashInsert method; index= 4 data= William
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Syed index= 4
+*** Calling hashInsert: data= Syed
+*** enter hashInsert method; index= 9 data= Syed
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Ross index= 3
+*** Calling hashInsert: data= Ross
+*** enter hashInsert method; index= 5 data= Ross
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Aparece index= 4
+*** Calling hashInsert: data= Aparece
+*** enter hashInsert method; index= 7 data= Aparece
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Mark index= 3
+*** Calling hashInsert: data= Mark
+*** enter hashInsert method; index= 10 data= Mark
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Angela index= 10
+*** Calling hashInsert: data= Angela
+*** enter hashInsert method; index= 1 data= Angela
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Kenneth index= 9
+*** Calling hashInsert: data= Kenneth
+*** enter hashInsert method; index= 2 data= Kenneth
+*** Leaving hashInsert (...) ***
+In main(): op= % data= Mark index= 3
+op is an illegal operation!
+In main(): op= + data= Mark index= 3
+*** Calling hashInsert: data= Mark
+*** enter hashInsert method; index= 10 data= Mark
+*** Warning, data is already in the database! ***
+*** Leaving hashInsert (...) ***
+In main(): op= ? data= Mark index= 3
+*** Calling hashRetrieval: data= Mark
+*** Inside hashRetrieval. Index= 10 data= Mark
+In main(): op= - data= Kevin index= 5
+*** Calling hashDelete: data= Kevin
+*** Inside hashDelete method. Index= 3 data= Kevin
+*** Warning, data is *not* in the hashTable! ***
+*** Leaving hashDelete () ***
+In main(): op= ? data= Kevin index= 5
+*** Calling hashRetrieval: data= Kevin
+*** Inside hashRetrieval. Index= 3 data= Kevin
+In main(): op= ? data= Ross index= 3
+*** Calling hashRetrieval: data= Ross
+*** Inside hashRetrieval. Index= 5 data= Ross
+In main(): op= + data= Farhan index= 8
+*** Calling hashInsert: data= Farhan
+*** enter hashInsert method; index= 9 data= Farhan
+*** Leaving hashInsert (...) ***
+In main(): op= ? data= Angela index= 10
+*** Calling hashRetrieval: data= Angela
+*** Inside hashRetrieval. Index= 1 data= Angela
+In main(): op= ? data= Kenneth index= 9
+*** Calling hashRetrieval: data= Kenneth
+*** Inside hashRetrieval. Index= 2 data= Kenneth
+In main(): op= - data= Kenneth index= 9
+*** Calling hashDelete: data= Kenneth
+*** Inside hashDelete method. Index= 2 data= Kenneth
+*** Leaving hashDelete () ***
+In main(): op= + data= Kenneth index= 9
+*** Calling hashInsert: data= Kenneth
+*** enter hashInsert method; index= 2 data= Kenneth
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Zachary index= 5
+*** Calling hashInsert: data= Zachary
+*** enter hashInsert method; index= 7 data= Zachary
+*** Leaving hashInsert (...) ***
+In main(): op= ? data= Farhan index= 8
+*** Calling hashRetrieval: data= Farhan
+*** Inside hashRetrieval. Index= 9 data= Farhan
+In main(): op= + data= Zachary index= 5
+*** Calling hashInsert: data= Zachary
+*** enter hashInsert method; index= 7 data= Zachary
+*** Warning, data is already in the database! ***
+*** Leaving hashInsert (...) ***
+In main(): op= - data= Zachary index= 5
+*** Calling hashDelete: data= Zachary
+*** Inside hashDelete method. Index= 7 data= Zachary
+*** Leaving hashDelete () ***
+In main(): op= # data= Zachary index= 5
+op is an illegal operation!
+In main(): op= * data= Zachary index= 5
+op is an illegal operation!
+In main(): op= + data= Harry index= 10
+*** Calling hashInsert: data= Harry
+*** enter hashInsert method; index= 1 data= Harry
+*** Leaving hashInsert (...) ***
+In main(): op= - data= Aparece index= 4
+*** Calling hashDelete: data= Aparece
+*** Inside hashDelete method. Index= 7 data= Aparece
+*** Leaving hashDelete () ***
+In main(): op= ? data= Aparece index= 4
+*** Calling hashRetrieval: data= Aparece
+*** Inside hashRetrieval. Index= 7 data= Aparece
+In main(): op= + data= Aparece index= 4
+*** Calling hashInsert: data= Aparece
+*** enter hashInsert method; index= 7 data= Aparece
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Murphy index= 10
+*** Calling hashInsert: data= Murphy
+*** enter hashInsert method; index= 7 data= Murphy
+*** Leaving hashInsert (...) ***
+In main(): op= ? data= Murphy index= 10
+*** Calling hashRetrieval: data= Murphy
+*** Inside hashRetrieval. Index= 7 data= Murphy
+In main(): op= + data= Chen index= 8
+*** Calling hashInsert: data= Chen
+*** enter hashInsert method; index= 8 data= Chen
+*** Leaving hashInsert (...) ***
+In main(): op= - data= Asadbek index= 10
+*** Calling hashDelete: data= Asadbek
+*** Inside hashDelete method. Index= 1 data= Asadbek
+*** Warning, data is *not* in the hashTable! ***
+*** Leaving hashDelete () ***
+In main(): op= + data= Ragib index= 0
+*** Calling hashInsert: data= Ragib
+*** enter hashInsert method; index= 1 data= Ragib
+*** Leaving hashInsert (...) ***
+In main(): op= % data= Ragib index= 0
+op is an illegal operation!
+In main(): op= ? data= William index= 0
+*** Calling hashRetrieval: data= William
+*** Inside hashRetrieval. Index= 4 data= William
+In main(): op= + data= Ragib index= 0
+*** Calling hashInsert: data= Ragib
+*** enter hashInsert method; index= 1 data= Ragib
+*** Warning, data is already in the database! ***
+*** Leaving hashInsert (...) ***
+In main(): op= - data= Venai index= 6
+*** Calling hashDelete: data= Venai
+*** Inside hashDelete method. Index= 4 data= Venai
+*** Warning, data is *not* in the hashTable! ***
+*** Leaving hashDelete () ***
+In main(): op= ? data= Syed index= 4
+*** Calling hashRetrieval: data= Syed
+*** Inside hashRetrieval. Index= 9 data= Syed
+In main(): op= + data= Venai index= 6
+*** Calling hashInsert: data= Venai
+*** enter hashInsert method; index= 4 data= Venai
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Venai index= 6
+*** Calling hashInsert: data= Venai
+*** enter hashInsert method; index= 4 data= Venai
+*** Warning, data is already in the database! ***
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Clevon index= 5
+*** Calling hashInsert: data= Clevon
+*** enter hashInsert method; index= 10 data= Clevon
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Benjamin index= 4
+*** Calling hashInsert: data= Benjamin
+*** enter hashInsert method; index= 1 data= Benjamin
+*** Leaving hashInsert (...) ***
+In main(): op= - data= Benjamin index= 4
+*** Calling hashDelete: data= Benjamin
+*** Inside hashDelete method. Index= 1 data= Benjamin
+*** Leaving hashDelete () ***
+In main(): op= + data= Mohammed index= 7
+*** Calling hashInsert: data= Mohammed
+*** enter hashInsert method; index= 5 data= Mohammed
+*** Leaving hashInsert (...) ***
+In main(): op= ? data= Benjamin index= 4
+*** Calling hashRetrieval: data= Benjamin
+*** Inside hashRetrieval. Index= 1 data= Benjamin
+In main(): op= + data= Aparece index= 4
+*** Calling hashInsert: data= Aparece
+*** enter hashInsert method; index= 7 data= Aparece
+*** Warning, data is already in the database! ***
+*** Leaving hashInsert (...) ***
+In main(): op= ? data= Clevon index= 5
+*** Calling hashRetrieval: data= Clevon
+*** Inside hashRetrieval. Index= 10 data= Clevon
+In main(): op= + data= Mohammed index= 7
+*** Calling hashInsert: data= Mohammed
+*** enter hashInsert method; index= 5 data= Mohammed
+*** Warning, data is already in the database! ***
+*** Leaving hashInsert (...) ***
+In main(): op= - data= Mohammed index= 7
+*** Calling hashDelete: data= Mohammed
+*** Inside hashDelete method. Index= 5 data= Mohammed
+*** Leaving hashDelete () ***
+In main(): op= ? data= Mohammed index= 7
+*** Calling hashRetrieval: data= Mohammed
+*** Inside hashRetrieval. Index= 5 data= Mohammed
+*** In main() below is the final hash Table ***
+HashTable[0] -> (dummy, NULL) -> NULL
+HashTable[1] -> (dummy, Angela) -> (Angela, Harry) -> (Harry, Ragib) -> (Ragib, NULL) -> NULL
+HashTable[2] -> (dummy, Kenneth) -> (Kenneth, NULL) -> NULL
+HashTable[3] -> (dummy, NULL) -> NULL
+HashTable[4] -> (dummy, Venai) -> (Venai, William) -> (William, NULL) -> NULL
+HashTable[5] -> (dummy, Ross) -> (Ross, NULL) -> NULL
+HashTable[6] -> (dummy, NULL) -> NULL
+HashTable[7] -> (dummy, Aparece) -> (Aparece, Murphy) -> (Murphy, NULL) -> NULL
+HashTable[8] -> (dummy, Chen) -> (Chen, NULL) -> NULL
+HashTable[9] -> (dummy, Farhan) -> (Farhan, Syed) -> (Syed, NULL) -> NULL
+HashTable[10] -> (dummy, Clevon) -> (Clevon, Mark) -> (Mark, NULL) -> NULL

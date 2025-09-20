@@ -1,0 +1,6 @@
+*** In main() below is the final hash Table ***
+HashTable[0] -> (dummy, Mark) -> (Mark, NULL) -> NULL
+HashTable[1] -> (dummy, NULL) -> NULL
+HashTable[2] -> (dummy, Farhan) -> (Farhan, Kenneth) -> (Kenneth, NULL) -> NULL
+HashTable[3] -> (dummy, Ross) -> (Ross, NULL) -> NULL
+HashTable[4] -> (dummy, Angela) -> (Angela, Aparece) -> (Aparece, NULL) -> NULL

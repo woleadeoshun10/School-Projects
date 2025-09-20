@@ -1,0 +1,60 @@
+In main(): op= + data= Angela index= 4
+*** Calling hashInsert: data= Angela
+*** enter hashInsert method; index= 4 data= Angela
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Kenneth index= 1
+*** Calling hashInsert: data= Kenneth
+*** enter hashInsert method; index= 2 data= Kenneth
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Ross index= 3
+*** Calling hashInsert: data= Ross
+*** enter hashInsert method; index= 3 data= Ross
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Aparece index= 0
+*** Calling hashInsert: data= Aparece
+*** enter hashInsert method; index= 4 data= Aparece
+*** Leaving hashInsert (...) ***
+In main(): op= + data= Mark index= 0
+*** Calling hashInsert: data= Mark
+*** enter hashInsert method; index= 0 data= Mark
+*** Leaving hashInsert (...) ***
+In main(): op= % data= Mark index= 0
+op is an illegal operation!
+In main(): op= + data= Mark index= 0
+*** Calling hashInsert: data= Mark
+*** enter hashInsert method; index= 0 data= Mark
+*** Warning, data is already in the database! ***
+*** Leaving hashInsert (...) ***
+In main(): op= ? data= Mark index= 0
+*** Calling hashRetrieval: data= Mark
+*** Inside hashRetrieval. Index= 0 data= Mark
+In main(): op= - data= Kevin index= 4
+*** Calling hashDelete: data= Kevin
+*** Inside hashDelete method. Index= 4 data= Kevin
+*** Warning, data is *not* in the hashTable! ***
+*** Leaving hashDelete () ***
+In main(): op= ? data= Kevin index= 4
+*** Calling hashRetrieval: data= Kevin
+*** Inside hashRetrieval. Index= 4 data= Kevin
+In main(): op= ? data= Ross index= 3
+*** Calling hashRetrieval: data= Ross
+*** Inside hashRetrieval. Index= 3 data= Ross
+In main(): op= + data= Farhan index= 2
+*** Calling hashInsert: data= Farhan
+*** enter hashInsert method; index= 2 data= Farhan
+*** Leaving hashInsert (...) ***
+In main(): op= ? data= Angela index= 4
+*** Calling hashRetrieval: data= Angela
+*** Inside hashRetrieval. Index= 4 data= Angela
+In main(): op= ? data= Kenneth index= 1
+*** Calling hashRetrieval: data= Kenneth
+*** Inside hashRetrieval. Index= 2 data= Kenneth
+In main(): op= ? data= Mohammed index= 4
+*** Calling hashRetrieval: data= Mohammed
+*** Inside hashRetrieval. Index= 3 data= Mohammed
+*** In main() below is the final hash Table ***
+HashTable[0] -> (dummy, Mark) -> (Mark, NULL) -> NULL
+HashTable[1] -> (dummy, NULL) -> NULL
+HashTable[2] -> (dummy, Farhan) -> (Farhan, Kenneth) -> (Kenneth, NULL) -> NULL
+HashTable[3] -> (dummy, Ross) -> (Ross, NULL) -> NULL
+HashTable[4] -> (dummy, Angela) -> (Angela, Aparece) -> (Aparece, NULL) -> NULL

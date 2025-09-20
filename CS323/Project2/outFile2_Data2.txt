@@ -1,0 +1,13 @@
+Yes, the record is in the database!
+*** Warning, the record is *not* in the database! ***
+Yes, the record is in the database!
+Yes, the record is in the database!
+Yes, the record is in the database!
+Yes, the record is in the database!
+*** Warning, the record is *not* in the database! ***
+Yes, the record is in the database!
+Yes, the record is in the database!
+Yes, the record is in the database!
+*** Warning, the record is *not* in the database! ***
+Yes, the record is in the database!
+*** Warning, the record is *not* in the database! ***

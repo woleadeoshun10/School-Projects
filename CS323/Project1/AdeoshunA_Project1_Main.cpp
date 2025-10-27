@@ -4,7 +4,7 @@ Course: CSCI 323 (Mon/Wed 3.10pm - 4.25pm)
 Instr: Tsaiyun Phillips
 ID: 24081306
 Project name: Linked-list implementation of stacks, queues, and lists
- */
+*/
 
 #include <iostream>
 #include <fstream>
@@ -14,19 +14,17 @@ using namespace std;
 // =======================
 // listNode class
 // =======================
-// each node holds a word (string) and a link to the next node
 class listNode {
 public:
-    string data;       // the actual word
-    listNode* next;    // pointer to the next node
+    string data;       // the word
+    listNode* next;    // pointer to next node
 
-    // constructor: initialize node with a word, next = NULL
     listNode(string d) {
         data = d;
         next = NULL;
     }
 
-    // print the node in format: (currentData, nextData) ->
+    // print node format
     void printNode(ofstream &out) {
         if (next != NULL)
             out << "(" << data << ", " << next->data << ") -> ";
@@ -38,40 +36,36 @@ public:
 // =======================
 // LLStack class
 // =======================
-// simple linked list implementation of a stack (LIFO)
 class LLStack {
 public:
-    listNode* top;  // dummy node at the top of the stack
+    listNode* top;
 
-    // constructor: create dummy node so stack is never "totally" empty to prevent program crash
     LLStack() {
         top = new listNode("dummy");
     }
 
-    // push: put newNode right after the dummy
+    // push node after dummy
     void push(listNode* newNode) {
         newNode->next = top->next;
         top->next = newNode;
     }
 
-    // pop: remove the first real node after dummy and return it
-    listNode* pop(ofstream &logFile) {
-        if (top->next == NULL) { // no real nodes
-            logFile << "stack is empty" << endl;
+    // pop: remove first real node after dummy
+    listNode* pop(ofstream &outFile1) {
+        if (top->next == NULL) {
+            outFile1 << "stack is empty" << endl;
             return NULL;
         }
-        listNode* tmp = top->next; // take the node right after dummy
-        top->next = tmp->next;     // top should point to temp's next pointer
-        tmp->next = NULL;          // detach it completely to prevent unwanted links
-        return tmp;                // return the popped node
+        listNode* tmp = top->next;
+        top->next = tmp->next;
+        tmp->next = NULL;
+        return tmp;
     }
 
-    // true if no real nodes exist
     bool isEmpty() {
         return top->next == NULL;
     }
 
-    // print whole stack from dummy down
     void printStack(ofstream &out) {
         out << "Top -> ";
         listNode* spot = top;
@@ -86,57 +80,49 @@ public:
 // =======================
 // LLQueue class
 // =======================
-// linked list implementation of queue (FIFO)
 class LLQueue {
 public:
-    listNode* head; // dummy node at the front
-    listNode* tail; // always points to last node
+    listNode* head;
+    listNode* tail;
 
-    // constructor: head = dummy, tail starts same as head
     LLQueue() {
         head = new listNode("dummy");
         tail = head;
     }
 
-    // enqueue: put newNode at the end
     void insertQ(listNode* newNode) {
         tail->next = newNode;
         tail = newNode;
     }
 
-    // dequeue: remove node right after dummy
-    listNode* deleteQ(ofstream &logFile) {
+    listNode* deleteQ(ofstream &outFile2, ofstream &logFile) {
         logFile << "entering deleteQ()" << endl;
 
-        // if queue is empty
         if (head == tail) {
+            outFile2 << "Q is empty" << endl;
             logFile << "Q is empty" << endl;
             logFile << "leaving deleteQ()" << endl;
             return NULL;
         }
 
-        // temp points to first real node
         listNode* temp = head->next;
-        // dummy skips over it
         head->next = temp->next;
 
-        // if we removed the last node, tail resets to dummy
-        if (tail == temp) tail = head;
+        if (tail == temp)
+            tail = head;
 
-        // detach node completely
         temp->next = NULL;
 
+        outFile2 << "delete a node from Q, newNode’s data is " << temp->data << endl;
         logFile << "delete a node from Q, newNode’s data is " << temp->data << endl;
         logFile << "leaving deleteQ()" << endl;
         return temp;
     }
 
-    // true if only dummy is left
     bool isEmpty() {
         return head == tail;
     }
 
-    // print queue contents from head (dummy) to tail
     void printQ(ofstream &out) {
         out << "Head -> ";
         listNode* spot = head;
@@ -151,22 +137,18 @@ public:
 // =======================
 // LLList class
 // =======================
-// linked list that keeps nodes sorted alphabetically
 class LLList {
 public:
     listNode* listHead;
 
-    // constructor: dummy node as head
     LLList() {
         listHead = new listNode("dummy");
     }
 
-    // find where to insert the new node (sorted order)
     listNode* findSpot(listNode* newNode, ofstream &logFile) {
         logFile << "entering findSpot()" << endl;
         listNode* spot = listHead;
 
-        // keep moving until we find the right place in ascending order
         while (spot->next != NULL && spot->next->data < newNode->data) {
             spot = spot->next;
         }
@@ -176,13 +158,11 @@ public:
         return spot;
     }
 
-    // insert newNode after spot
     void insertOneNode(listNode* spot, listNode* newNode) {
         newNode->next = spot->next;
         spot->next = newNode;
     }
 
-    // print full list
     void printList(ofstream &out) {
         out << "listHead -> ";
         listNode* spot = listHead;
@@ -197,14 +177,13 @@ public:
 // =======================
 // buildStack
 // =======================
-// read words from file, create nodes, push onto stack
 void buildStack(LLStack &S, ifstream &inFile, ofstream &logFile) {
     logFile << "entering buildStack()" << endl;
     string word;
-    while (inFile >> word) { // read word by word
+    while (inFile >> word) {
         logFile << "input data is " << word << endl;
         listNode* newNode = new listNode(word);
-        S.push(newNode); // put word on stack
+        S.push(newNode);
     }
     logFile << "leaving buildStack()" << endl;
 }
@@ -212,14 +191,14 @@ void buildStack(LLStack &S, ifstream &inFile, ofstream &logFile) {
 // =======================
 // buildQueue
 // =======================
-// pop from stack, enqueue into queue
-void buildQueue(LLStack &S, LLQueue &Q, ofstream &logFile) {
+void buildQueue(LLStack &S, LLQueue &Q, ofstream &outFile1, ofstream &logFile) {
     logFile << "entering buildQueue()" << endl;
     while (!S.isEmpty()) {
-        listNode* newNode = S.pop(logFile);
+        listNode* newNode = S.pop(outFile1);
         if (newNode != NULL) {
+            outFile1 << "after pop stack, newNode’s data is " << newNode->data << endl;
             logFile << "after pop stack, newNode’s data is " << newNode->data << endl;
-            Q.insertQ(newNode); // enqueue node
+            Q.insertQ(newNode);
         }
     }
     logFile << "leaving buildQueue()" << endl;
@@ -228,14 +207,13 @@ void buildQueue(LLStack &S, LLQueue &Q, ofstream &logFile) {
 // =======================
 // buildList
 // =======================
-// dequeue from queue, insert into sorted linked list
-void buildList(LLQueue &Q, LLList &L, ofstream &logFile) {
+void buildList(LLQueue &Q, LLList &L, ofstream &outFile2, ofstream &logFile) {
     logFile << "entering buildList()" << endl;
     while (!Q.isEmpty()) {
-        listNode* newNode = Q.deleteQ(logFile);
+        listNode* newNode = Q.deleteQ(outFile2, logFile);
         if (newNode != NULL) {
             listNode* spot = L.findSpot(newNode, logFile);
-            L.insertOneNode(spot, newNode); // place node in sorted position
+            L.insertOneNode(spot, newNode);
         }
     }
     logFile << "leaving buildList()" << endl;
@@ -250,7 +228,6 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    // open all files from argv
     ifstream inFile(argv[1]);
     ofstream outFile1(argv[2]);
     ofstream outFile2(argv[3]);
@@ -266,25 +243,24 @@ int main(int argc, char* argv[]) {
     LLStack S;
     logFile << "calling buildStack()" << endl;
     buildStack(S, inFile, logFile);
-    S.printStack(outFile1); // snapshot stack into output1.txt
+    S.printStack(outFile1);
 
     // Step 2: build queue
     LLQueue Q;
     logFile << "calling buildQueue()" << endl;
-    buildQueue(S, Q, logFile);
-    Q.printQ(outFile2); // snapshot queue into output2.txt
+    buildQueue(S, Q, outFile1, logFile);
+    Q.printQ(outFile2);
 
-    // Step 3: build ordered list
+    // Step 3: build list
     LLList L;
     logFile << "calling buildList()" << endl;
-    buildList(Q, L, logFile);
+    buildList(Q, L, outFile2, logFile);
 
-    // Step 4: print list
+    // Step 4: print final list
     logFile << "Printing list" << endl;
-    L.printList(logFile);  // also print list into log for trace
-    L.printList(outFile3); // final sorted list into output3.txt
+    L.printList(logFile);
+    L.printList(outFile3);
 
-    // close files
     inFile.close();
     outFile1.close();
     outFile2.close();

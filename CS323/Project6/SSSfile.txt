@@ -1,0 +1,396 @@
+==================================================
+There are 8 nodes in the input graph. Below are all pairs of shortest paths:
+==================================================
+
+
+Source node = 1
+The path from 1 to 1 : 1 <- 1 : cost = 0
+The path from 1 to 2 : 2 <- 3 <- 1 : cost = 7
+The path from 1 to 3 : 3 <- 1 : cost = 5
+The path from 1 to 4 : 4 <- 3 <- 1 : cost = 10
+The path from 1 to 5 : 5 <- 4 <- 3 <- 1 : cost = 16
+The path from 1 to 6 : 6 <- 4 <- 3 <- 1 : cost = 13
+The path from 1 to 7 : 7 <- 8 <- 2 <- 3 <- 1 : cost = 11
+The path from 1 to 8 : 8 <- 2 <- 3 <- 1 : cost = 9
+
+===========================
+
+*** Below is ToDo array ***
+Index	Parent
+==================
+    1	    0
+    2	    0
+    3	    0
+    4	    0
+    5	    0
+    6	    0
+    7	    0
+    8	    0
+
+*** Below is Best array ***
+Index	Parent
+==================
+    1	    0
+    2	    7
+    3	    5
+    4	   10
+    5	   16
+    6	   13
+    7	   11
+    8	    9
+
+*** Below is Parent array ***
+Index	Parent
+==================
+    1	    1
+    2	    3
+    3	    1
+    4	    3
+    5	    4
+    6	    4
+    7	    8
+    8	    2
+
+
+The source node = 2
+The path from 2 to 1 : 1 <- 8 <- 2 : cost = 8
+The path from 2 to 2 : 2 <- 2 : cost = 0
+The path from 2 to 3 : 3 <- 1 <- 8 <- 2 : cost = 13
+The path from 2 to 4 : 4 <- 7 <- 8 <- 2 : cost = 12
+The path from 2 to 5 : 5 <- 4 <- 7 <- 8 <- 2 : cost = 18
+The path from 2 to 6 : 6 <- 7 <- 8 <- 2 : cost = 8
+The path from 2 to 7 : 7 <- 8 <- 2 : cost = 4
+The path from 2 to 8 : 8 <- 2 : cost = 2
+
+===========================
+
+*** Below is ToDo array ***
+Index	Parent
+==================
+    1	    0
+    2	    0
+    3	    0
+    4	    0
+    5	    0
+    6	    0
+    7	    0
+    8	    0
+
+*** Below is Best array ***
+Index	Parent
+==================
+    1	    8
+    2	    0
+    3	   13
+    4	   12
+    5	   18
+    6	    8
+    7	    4
+    8	    2
+
+*** Below is Parent array ***
+Index	Parent
+==================
+    1	    8
+    2	    2
+    3	    1
+    4	    7
+    5	    4
+    6	    7
+    7	    8
+    8	    2
+
+
+The source node = 3
+The path from 3 to 1 : 1 <- 8 <- 2 <- 3 : cost = 10
+The path from 3 to 2 : 2 <- 3 : cost = 2
+The path from 3 to 3 : 3 <- 3 : cost = 0
+The path from 3 to 4 : 4 <- 3 : cost = 5
+The path from 3 to 5 : 5 <- 4 <- 3 : cost = 11
+The path from 3 to 6 : 6 <- 4 <- 3 : cost = 8
+The path from 3 to 7 : 7 <- 8 <- 2 <- 3 : cost = 6
+The path from 3 to 8 : 8 <- 2 <- 3 : cost = 4
+
+===========================
+
+*** Below is ToDo array ***
+Index	Parent
+==================
+    1	    0
+    2	    0
+    3	    0
+    4	    0
+    5	    0
+    6	    0
+    7	    0
+    8	    0
+
+*** Below is Best array ***
+Index	Parent
+==================
+    1	   10
+    2	    2
+    3	    0
+    4	    5
+    5	   11
+    6	    8
+    7	    6
+    8	    4
+
+*** Below is Parent array ***
+Index	Parent
+==================
+    1	    8
+    2	    3
+    3	    3
+    4	    3
+    5	    4
+    6	    4
+    7	    8
+    8	    2
+
+
+The source node = 4
+The path from 4 to 1 : 1 <- 6 <- 4 : cost = 12
+The path from 4 to 2 : 2 <- 6 <- 4 : cost = 9
+The path from 4 to 3 : 3 <- 1 <- 6 <- 4 : cost = 17
+The path from 4 to 4 : 4 <- 4 : cost = 0
+The path from 4 to 5 : 5 <- 4 : cost = 6
+The path from 4 to 6 : 6 <- 4 : cost = 3
+The path from 4 to 7 : 7 <- 6 <- 4 : cost = 5
+The path from 4 to 8 : 8 <- 2 <- 6 <- 4 : cost = 11
+
+===========================
+
+*** Below is ToDo array ***
+Index	Parent
+==================
+    1	    0
+    2	    0
+    3	    0
+    4	    0
+    5	    0
+    6	    0
+    7	    0
+    8	    0
+
+*** Below is Best array ***
+Index	Parent
+==================
+    1	   12
+    2	    9
+    3	   17
+    4	    0
+    5	    6
+    6	    3
+    7	    5
+    8	   11
+
+*** Below is Parent array ***
+Index	Parent
+==================
+    1	    6
+    2	    6
+    3	    1
+    4	    4
+    5	    4
+    6	    4
+    7	    6
+    8	    2
+
+
+The source node = 5
+The path from 5 to 1 : 1 <- 8 <- 5 : cost = 13
+The path from 5 to 2 : 2 <- 5 : cost = 14
+The path from 5 to 3 : 3 <- 1 <- 8 <- 5 : cost = 18
+The path from 5 to 4 : 4 <- 7 <- 8 <- 5 : cost = 17
+The path from 5 to 5 : 5 <- 5 : cost = 0
+The path from 5 to 6 : 6 <- 7 <- 8 <- 5 : cost = 13
+The path from 5 to 7 : 7 <- 8 <- 5 : cost = 9
+The path from 5 to 8 : 8 <- 5 : cost = 7
+
+===========================
+
+*** Below is ToDo array ***
+Index	Parent
+==================
+    1	    0
+    2	    0
+    3	    0
+    4	    0
+    5	    0
+    6	    0
+    7	    0
+    8	    0
+
+*** Below is Best array ***
+Index	Parent
+==================
+    1	   13
+    2	   14
+    3	   18
+    4	   17
+    5	    0
+    6	   13
+    7	    9
+    8	    7
+
+*** Below is Parent array ***
+Index	Parent
+==================
+    1	    8
+    2	    5
+    3	    1
+    4	    7
+    5	    5
+    6	    7
+    7	    8
+    8	    5
+
+
+The source node = 6
+The path from 6 to 1 : 1 <- 6 : cost = 9
+The path from 6 to 2 : 2 <- 6 : cost = 6
+The path from 6 to 3 : 3 <- 1 <- 6 : cost = 14
+The path from 6 to 4 : 4 <- 7 <- 6 : cost = 10
+The path from 6 to 5 : 5 <- 4 <- 7 <- 6 : cost = 16
+The path from 6 to 6 : 6 <- 6 : cost = 0
+The path from 6 to 7 : 7 <- 6 : cost = 2
+The path from 6 to 8 : 8 <- 2 <- 6 : cost = 8
+
+===========================
+
+*** Below is ToDo array ***
+Index	Parent
+==================
+    1	    0
+    2	    0
+    3	    0
+    4	    0
+    5	    0
+    6	    0
+    7	    0
+    8	    0
+
+*** Below is Best array ***
+Index	Parent
+==================
+    1	    9
+    2	    6
+    3	   14
+    4	   10
+    5	   16
+    6	    0
+    7	    2
+    8	    8
+
+*** Below is Parent array ***
+Index	Parent
+==================
+    1	    6
+    2	    6
+    3	    1
+    4	    7
+    5	    4
+    6	    6
+    7	    6
+    8	    2
+
+
+The source node = 7
+The path from 7 to 1 : 1 <- 6 <- 7 : cost = 13
+The path from 7 to 2 : 2 <- 6 <- 7 : cost = 10
+The path from 7 to 3 : 3 <- 1 <- 6 <- 7 : cost = 18
+The path from 7 to 4 : 4 <- 7 : cost = 8
+The path from 7 to 5 : 5 <- 4 <- 7 : cost = 14
+The path from 7 to 6 : 6 <- 7 : cost = 4
+The path from 7 to 7 : 7 <- 7 : cost = 0
+The path from 7 to 8 : 8 <- 2 <- 6 <- 7 : cost = 12
+
+===========================
+
+*** Below is ToDo array ***
+Index	Parent
+==================
+    1	    0
+    2	    0
+    3	    0
+    4	    0
+    5	    0
+    6	    0
+    7	    0
+    8	    0
+
+*** Below is Best array ***
+Index	Parent
+==================
+    1	   13
+    2	   10
+    3	   18
+    4	    8
+    5	   14
+    6	    4
+    7	    0
+    8	   12
+
+*** Below is Parent array ***
+Index	Parent
+==================
+    1	    6
+    2	    6
+    3	    1
+    4	    7
+    5	    4
+    6	    7
+    7	    7
+    8	    2
+
+
+The source node = 8
+The path from 8 to 1 : 1 <- 8 : cost = 6
+The path from 8 to 2 : 2 <- 6 <- 7 <- 8 : cost = 12
+The path from 8 to 3 : 3 <- 1 <- 8 : cost = 11
+The path from 8 to 4 : 4 <- 7 <- 8 : cost = 10
+The path from 8 to 5 : 5 <- 4 <- 7 <- 8 : cost = 16
+The path from 8 to 6 : 6 <- 7 <- 8 : cost = 6
+The path from 8 to 7 : 7 <- 8 : cost = 2
+The path from 8 to 8 : 8 <- 8 : cost = 0
+
+===========================
+
+*** Below is ToDo array ***
+Index	Parent
+==================
+    1	    0
+    2	    0
+    3	    0
+    4	    0
+    5	    0
+    6	    0
+    7	    0
+    8	    0
+
+*** Below is Best array ***
+Index	Parent
+==================
+    1	    6
+    2	   12
+    3	   11
+    4	   10
+    5	   16
+    6	    6
+    7	    2
+    8	    0
+
+*** Below is Parent array ***
+Index	Parent
+==================
+    1	    8
+    2	    6
+    3	    1
+    4	    7
+    5	    4
+    6	    7
+    7	    8
+    8	    8
+

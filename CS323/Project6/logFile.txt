@@ -1,0 +1,168 @@
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 3  minCost = 5
+In main(), minNode is 3
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 2  minCost = 7
+In main(), minNode is 2
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 8  minCost = 9
+In main(), minNode is 8
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 4  minCost = 10
+In main(), minNode is 4
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 7  minCost = 11
+In main(), minNode is 7
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 6  minCost = 13
+In main(), minNode is 6
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 5  minCost = 16
+In main(), minNode is 5
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 8  minCost = 2
+In main(), minNode is 8
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 7  minCost = 4
+In main(), minNode is 7
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 1  minCost = 8
+In main(), minNode is 1
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 6  minCost = 8
+In main(), minNode is 6
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 4  minCost = 12
+In main(), minNode is 4
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 3  minCost = 13
+In main(), minNode is 3
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 5  minCost = 18
+In main(), minNode is 5
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 2  minCost = 2
+In main(), minNode is 2
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 8  minCost = 4
+In main(), minNode is 8
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 4  minCost = 5
+In main(), minNode is 4
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 7  minCost = 6
+In main(), minNode is 7
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 6  minCost = 8
+In main(), minNode is 6
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 1  minCost = 10
+In main(), minNode is 1
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 5  minCost = 11
+In main(), minNode is 5
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 6  minCost = 3
+In main(), minNode is 6
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 7  minCost = 5
+In main(), minNode is 7
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 5  minCost = 6
+In main(), minNode is 5
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 2  minCost = 9
+In main(), minNode is 2
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 8  minCost = 11
+In main(), minNode is 8
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 1  minCost = 12
+In main(), minNode is 1
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 3  minCost = 17
+In main(), minNode is 3
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 8  minCost = 7
+In main(), minNode is 8
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 7  minCost = 9
+In main(), minNode is 7
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 1  minCost = 13
+In main(), minNode is 1
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 6  minCost = 13
+In main(), minNode is 6
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 2  minCost = 14
+In main(), minNode is 2
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 4  minCost = 17
+In main(), minNode is 4
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 3  minCost = 18
+In main(), minNode is 3
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 7  minCost = 2
+In main(), minNode is 7
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 2  minCost = 6
+In main(), minNode is 2
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 8  minCost = 8
+In main(), minNode is 8
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 1  minCost = 9
+In main(), minNode is 1
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 4  minCost = 10
+In main(), minNode is 4
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 3  minCost = 14
+In main(), minNode is 3
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 5  minCost = 16
+In main(), minNode is 5
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 6  minCost = 4
+In main(), minNode is 6
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 4  minCost = 8
+In main(), minNode is 4
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 2  minCost = 10
+In main(), minNode is 2
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 8  minCost = 12
+In main(), minNode is 8
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 1  minCost = 13
+In main(), minNode is 1
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 5  minCost = 14
+In main(), minNode is 5
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 3  minCost = 18
+In main(), minNode is 3
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 7  minCost = 2
+In main(), minNode is 7
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 1  minCost = 6
+In main(), minNode is 1
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 6  minCost = 6
+In main(), minNode is 6
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 4  minCost = 10
+In main(), minNode is 4
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 3  minCost = 11
+In main(), minNode is 3
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 2  minCost = 12
+In main(), minNode is 2
+Entering findMinNode() method
+Leaving findMinNode(): minNode = 5  minCost = 16
+In main(), minNode is 5

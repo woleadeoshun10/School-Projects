@@ -1,0 +1,350 @@
+*** In main() newEdge from inFile is (6, 4, 5) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <6, 4, 5> -> NULL
+
+*** In main() newEdge from inFile is (12, 7, 2) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <12, 7, 2> -> <6, 4, 5> -> NULL
+
+*** In main() newEdge from inFile is (6, 12, 4) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <12, 7, 2> -> <6, 12, 4> -> <6, 4, 5> -> NULL
+
+*** In main() newEdge from inFile is (10, 12, 7) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <12, 7, 2> -> <6, 12, 4> -> <6, 4, 5> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (9, 10, 3) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <12, 7, 2> -> <9, 10, 3> -> <6, 12, 4> -> <6, 4, 5> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (2, 4, 1) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <12, 7, 2> -> <9, 10, 3> -> <6, 12, 4> -> <6, 4, 5> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (9, 11, 5) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <12, 7, 2> -> <9, 10, 3> -> <6, 12, 4> -> <9, 11, 5> -> <6, 4, 5> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (3, 2, 6) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <12, 7, 2> -> <9, 10, 3> -> <6, 12, 4> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (5, 7, 5) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <12, 7, 2> -> <9, 10, 3> -> <6, 12, 4> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (1, 6, 3) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <12, 7, 2> -> <1, 6, 3> -> <9, 10, 3> -> <6, 12, 4> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (8, 6, 2) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <8, 6, 2> -> <12, 7, 2> -> <1, 6, 3> -> <9, 10, 3> -> <6, 12, 4> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (9, 8, 1) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <9, 8, 1> -> <2, 4, 1> -> <8, 6, 2> -> <12, 7, 2> -> <1, 6, 3> -> <9, 10, 3> -> <6, 12, 4> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (8, 10, 2) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <9, 8, 1> -> <2, 4, 1> -> <8, 10, 2> -> <8, 6, 2> -> <12, 7, 2> -> <1, 6, 3> -> <9, 10, 3> -> <6, 12, 4> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (5, 4, 4) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <9, 8, 1> -> <2, 4, 1> -> <8, 10, 2> -> <8, 6, 2> -> <12, 7, 2> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (4, 3, 3) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <9, 8, 1> -> <2, 4, 1> -> <8, 10, 2> -> <8, 6, 2> -> <12, 7, 2> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (1, 2, 5) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <9, 8, 1> -> <2, 4, 1> -> <8, 10, 2> -> <8, 6, 2> -> <12, 7, 2> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (1, 11, 3) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <9, 8, 1> -> <2, 4, 1> -> <8, 10, 2> -> <8, 6, 2> -> <12, 7, 2> -> <1, 11, 3> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (3, 5, 2) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <9, 8, 1> -> <2, 4, 1> -> <3, 5, 2> -> <8, 10, 2> -> <8, 6, 2> -> <12, 7, 2> -> <1, 11, 3> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (6, 7, 2) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <9, 8, 1> -> <2, 4, 1> -> <6, 7, 2> -> <3, 5, 2> -> <8, 10, 2> -> <8, 6, 2> -> <12, 7, 2> -> <1, 11, 3> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (7, 8, 3) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <9, 8, 1> -> <2, 4, 1> -> <6, 7, 2> -> <3, 5, 2> -> <8, 10, 2> -> <8, 6, 2> -> <12, 7, 2> -> <7, 8, 3> -> <1, 11, 3> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() newEdge from inFile is (1, 4, 5) -> 
+*** In main() Printing edgeList after insert the new edge:
+listHead -> <0, 0, 0> -> <9, 8, 1> -> <2, 4, 1> -> <6, 7, 2> -> <3, 5, 2> -> <8, 10, 2> -> <8, 6, 2> -> <12, 7, 2> -> <7, 8, 3> -> <1, 11, 3> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 4, 5> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main() At the end of printing all edges of the input graph
+
+*** In main() the nextEdge is (9, 8, 1) -> 
+In main(): after merge two sets: numSets is 11
+*** In main(): Printing whichSet array
+nodeID	whichSet
+==================
+    1	    1
+    2	    2
+    3	    3
+    4	    4
+    5	    5
+    6	    6
+    7	    7
+    8	    8
+    9	    8
+   10	   10
+   11	   11
+   12	   12
+
+*** In main(): Printing the remaining of edgeList
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <6, 7, 2> -> <3, 5, 2> -> <8, 10, 2> -> <8, 6, 2> -> <12, 7, 2> -> <7, 8, 3> -> <1, 11, 3> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 4, 5> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main(): Print the growing MST list
+listHead -> <0, 0, 0> -> <9, 8, 1> -> NULL
+
+*** In main() the nextEdge is (2, 4, 1) -> 
+In main(): after merge two sets: numSets is 10
+*** In main(): Printing whichSet array
+nodeID	whichSet
+==================
+    1	    1
+    2	    2
+    3	    3
+    4	    2
+    5	    5
+    6	    6
+    7	    7
+    8	    8
+    9	    8
+   10	   10
+   11	   11
+   12	   12
+
+*** In main(): Printing the remaining of edgeList
+listHead -> <0, 0, 0> -> <6, 7, 2> -> <3, 5, 2> -> <8, 10, 2> -> <8, 6, 2> -> <12, 7, 2> -> <7, 8, 3> -> <1, 11, 3> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 4, 5> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main(): Print the growing MST list
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <9, 8, 1> -> NULL
+
+*** In main() the nextEdge is (6, 7, 2) -> 
+In main(): after merge two sets: numSets is 9
+*** In main(): Printing whichSet array
+nodeID	whichSet
+==================
+    1	    1
+    2	    2
+    3	    3
+    4	    2
+    5	    5
+    6	    6
+    7	    6
+    8	    8
+    9	    8
+   10	   10
+   11	   11
+   12	   12
+
+*** In main(): Printing the remaining of edgeList
+listHead -> <0, 0, 0> -> <3, 5, 2> -> <8, 10, 2> -> <8, 6, 2> -> <12, 7, 2> -> <7, 8, 3> -> <1, 11, 3> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 4, 5> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main(): Print the growing MST list
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <9, 8, 1> -> <6, 7, 2> -> NULL
+
+*** In main() the nextEdge is (3, 5, 2) -> 
+In main(): after merge two sets: numSets is 8
+*** In main(): Printing whichSet array
+nodeID	whichSet
+==================
+    1	    1
+    2	    2
+    3	    3
+    4	    2
+    5	    3
+    6	    6
+    7	    6
+    8	    8
+    9	    8
+   10	   10
+   11	   11
+   12	   12
+
+*** In main(): Printing the remaining of edgeList
+listHead -> <0, 0, 0> -> <8, 10, 2> -> <8, 6, 2> -> <12, 7, 2> -> <7, 8, 3> -> <1, 11, 3> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 4, 5> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main(): Print the growing MST list
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <9, 8, 1> -> <3, 5, 2> -> <6, 7, 2> -> NULL
+
+*** In main() the nextEdge is (8, 10, 2) -> 
+In main(): after merge two sets: numSets is 7
+*** In main(): Printing whichSet array
+nodeID	whichSet
+==================
+    1	    1
+    2	    2
+    3	    3
+    4	    2
+    5	    3
+    6	    6
+    7	    6
+    8	    8
+    9	    8
+   10	    8
+   11	   11
+   12	   12
+
+*** In main(): Printing the remaining of edgeList
+listHead -> <0, 0, 0> -> <8, 6, 2> -> <12, 7, 2> -> <7, 8, 3> -> <1, 11, 3> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 4, 5> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main(): Print the growing MST list
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <9, 8, 1> -> <8, 10, 2> -> <3, 5, 2> -> <6, 7, 2> -> NULL
+
+*** In main() the nextEdge is (8, 6, 2) -> 
+In main(): after merge two sets: numSets is 6
+*** In main(): Printing whichSet array
+nodeID	whichSet
+==================
+    1	    1
+    2	    2
+    3	    3
+    4	    2
+    5	    3
+    6	    6
+    7	    6
+    8	    6
+    9	    6
+   10	    6
+   11	   11
+   12	   12
+
+*** In main(): Printing the remaining of edgeList
+listHead -> <0, 0, 0> -> <12, 7, 2> -> <7, 8, 3> -> <1, 11, 3> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 4, 5> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main(): Print the growing MST list
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <9, 8, 1> -> <8, 6, 2> -> <8, 10, 2> -> <3, 5, 2> -> <6, 7, 2> -> NULL
+
+*** In main() the nextEdge is (12, 7, 2) -> 
+In main(): after merge two sets: numSets is 5
+*** In main(): Printing whichSet array
+nodeID	whichSet
+==================
+    1	    1
+    2	    2
+    3	    3
+    4	    2
+    5	    3
+    6	    6
+    7	    6
+    8	    6
+    9	    6
+   10	    6
+   11	   11
+   12	    6
+
+*** In main(): Printing the remaining of edgeList
+listHead -> <0, 0, 0> -> <7, 8, 3> -> <1, 11, 3> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 4, 5> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main(): Print the growing MST list
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <9, 8, 1> -> <12, 7, 2> -> <8, 6, 2> -> <8, 10, 2> -> <3, 5, 2> -> <6, 7, 2> -> NULL
+
+*** In main() the nextEdge is (1, 11, 3) -> 
+In main(): after merge two sets: numSets is 4
+*** In main(): Printing whichSet array
+nodeID	whichSet
+==================
+    1	    1
+    2	    2
+    3	    3
+    4	    2
+    5	    3
+    6	    6
+    7	    6
+    8	    6
+    9	    6
+   10	    6
+   11	    1
+   12	    6
+
+*** In main(): Printing the remaining of edgeList
+listHead -> <0, 0, 0> -> <4, 3, 3> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 4, 5> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main(): Print the growing MST list
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <9, 8, 1> -> <12, 7, 2> -> <8, 6, 2> -> <8, 10, 2> -> <3, 5, 2> -> <6, 7, 2> -> <1, 11, 3> -> NULL
+
+*** In main() the nextEdge is (4, 3, 3) -> 
+In main(): after merge two sets: numSets is 3
+*** In main(): Printing whichSet array
+nodeID	whichSet
+==================
+    1	    1
+    2	    2
+    3	    2
+    4	    2
+    5	    2
+    6	    6
+    7	    6
+    8	    6
+    9	    6
+   10	    6
+   11	    1
+   12	    6
+
+*** In main(): Printing the remaining of edgeList
+listHead -> <0, 0, 0> -> <1, 6, 3> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 4, 5> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main(): Print the growing MST list
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <9, 8, 1> -> <12, 7, 2> -> <8, 6, 2> -> <8, 10, 2> -> <3, 5, 2> -> <6, 7, 2> -> <4, 3, 3> -> <1, 11, 3> -> NULL
+
+*** In main() the nextEdge is (1, 6, 3) -> 
+In main(): after merge two sets: numSets is 2
+*** In main(): Printing whichSet array
+nodeID	whichSet
+==================
+    1	    1
+    2	    2
+    3	    2
+    4	    2
+    5	    2
+    6	    1
+    7	    1
+    8	    1
+    9	    1
+   10	    1
+   11	    1
+   12	    1
+
+*** In main(): Printing the remaining of edgeList
+listHead -> <0, 0, 0> -> <9, 10, 3> -> <5, 4, 4> -> <6, 12, 4> -> <1, 4, 5> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main(): Print the growing MST list
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <9, 8, 1> -> <12, 7, 2> -> <8, 6, 2> -> <8, 10, 2> -> <3, 5, 2> -> <6, 7, 2> -> <1, 6, 3> -> <4, 3, 3> -> <1, 11, 3> -> NULL
+
+*** In main() the nextEdge is (1, 4, 5) -> 
+In main(): after merge two sets: numSets is 1
+*** In main(): Printing whichSet array
+nodeID	whichSet
+==================
+    1	    1
+    2	    1
+    3	    1
+    4	    1
+    5	    1
+    6	    1
+    7	    1
+    8	    1
+    9	    1
+   10	    1
+   11	    1
+   12	    1
+
+*** In main(): Printing the remaining of edgeList
+listHead -> <0, 0, 0> -> <1, 2, 5> -> <5, 7, 5> -> <9, 11, 5> -> <6, 4, 5> -> <3, 2, 6> -> <10, 12, 7> -> NULL
+
+*** In main(): Print the growing MST list
+listHead -> <0, 0, 0> -> <2, 4, 1> -> <9, 8, 1> -> <12, 7, 2> -> <8, 6, 2> -> <8, 10, 2> -> <3, 5, 2> -> <6, 7, 2> -> <1, 6, 3> -> <4, 3, 3> -> <1, 11, 3> -> <1, 4, 5> -> NULL
+

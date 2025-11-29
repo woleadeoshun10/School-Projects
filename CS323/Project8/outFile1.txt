@@ -1,0 +1,25 @@
+*** Below is the Hash table of input graph ***
+hashTable[1] -> 3 -> 9 -> 10 -> 8 -> 4 -> 7 -> NULL
+hashTable[2] -> 10 -> 4 -> 7 -> 6 -> 5 -> NULL
+hashTable[3] -> 9 -> 8 -> 1 -> NULL
+hashTable[4] -> 10 -> 7 -> 2 -> 1 -> NULL
+hashTable[5] -> 6 -> 2 -> NULL
+hashTable[6] -> 10 -> 5 -> 2 -> NULL
+hashTable[7] -> 10 -> 8 -> 4 -> 2 -> 1 -> NULL
+hashTable[8] -> 7 -> 9 -> 3 -> 1 -> NULL
+hashTable[9] -> 10 -> 8 -> 3 -> 1 -> NULL
+hashTable[10] -> 7 -> 9 -> 6 -> 4 -> 2 -> 1 -> NULL
+
+>> Method 2 is used to color the input graph of number of nodes = 10 <<
+>> Below is the result of the color assignment <<
+1 A
+2 A
+3 B
+4 B
+5 B
+6 C
+7 C
+8 D
+9 C
+10 D
+

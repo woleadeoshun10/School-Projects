@@ -10,7 +10,7 @@ IPC Pipe + Multithread Sum Program
 // Usage: ./ADEOSHUN_24081306.exe 1 lb1 ub1 lb2 ub2 ...
 // Example: ./ADEOSHUN_24081306.exe 1 1 100 101 200 201 300 301 400 401 500
 
-#include <iostream>
+#include <iostream >
 #include <string>
 #include <sys/types.h>
 #include <sys/wait.h>

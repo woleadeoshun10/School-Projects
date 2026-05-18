@@ -1,0 +1,72 @@
+Main Thread: starting, input file = Project2_TestCase1_Spring 2026.txt
+Main Thread: created Computation Thread
+Computation Thread: started
+Logger Thread: started
+Main Thread: created Logger Thread
+Main Thread: created Email Thread
+Email Thread: started
+Computation Thread: processed line 1
+Line 1 characters: 108 words: 15
+Computation Thread: processed line 2
+Line 2 characters: 135 words: 17
+Computation Thread: processed line 3
+Line 3 characters: 134 words: 20
+Computation Thread: processed line 4
+Line 4 characters: 129 words: 23
+Computation Thread: processed line 5
+Line 5 characters: 135 words: 19
+Computation Thread: processed line 6
+Computation Thread: processed line 7
+Line 6 characters: 142 words: 23
+Line 7 characters: 0 words: 0
+Computation Thread: processed line 8
+Computation Thread: processed line 9
+Line 8 characters: 790 words: 117
+Line 9 characters: 0 words: 0
+Computation Thread: processed line 10
+Line 10 characters: 600 words: 92
+Computation Thread: processed line 11
+Line 11 characters: 95 words: 15
+Computation Thread: done, sentinel sent to queue1
+Total number of characters= 2268
+Total number of words= 341
+Total number of lines= 11
+Main Thread: joined thread Logger Thread: done
+0
+Email Thread: composed email with 11 lines, ready to send via SMTP
+Main Thread: joined thread Email Thread: done
+1
+Main Thread: joined thread 2
+Main Thread: all threads done, program terminating
+Main Thread: starting, input file = Prj2_TC2_Sect121.txt
+Main Thread: created Computation Thread
+Computation Thread: started
+Logger Thread: started
+Main Thread: created Logger Thread
+Main Thread: created Email Thread
+Email Thread: started
+Computation Thread: processed line 1
+Line 1 characters: 88 words: 16
+Computation Thread: processed line 2
+Line 2 characters: 97 words: 17
+Computation Thread: processed line 3
+Line 3 characters: 88 words: 15
+Computation Thread: processed line 4
+Line 4 characters: 94 words: 15
+Computation Thread: processed line 5
+Line 5 characters: 107 words: 18
+Computation Thread: processed line 6
+Line 6 characters: 107 words: 18
+Computation Thread: processed line 7
+Line 7 characters: 34 words: 5
+Computation Thread: done, sentinel sent to queue1
+Total number of characters= 615
+Total number of words= Main Thread: joined thread 104
+Total number of lines= 7
+0Logger Thread: done
+
+Email Thread: composed email with 7 lines, ready to send via SMTP
+Email Thread: done
+Main Thread: joined thread 1
+Main Thread: joined thread 2
+Main Thread: all threads done, program terminating
